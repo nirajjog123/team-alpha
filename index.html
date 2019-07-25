@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Counter Strike</title>
+</head>
+<body>
+<style>
+    body {
+        margin: 0;
+    }
+
+    #board {
+        margin: 0 auto;
+        width: 500px;
+    }
+
+    #myCanvas {
+        border: 3px dotted #000;
+    }
+</style>
+<script type="text/JavaScript" src="/public/socket-io.js"></script>
+<script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=1.4.2"></script>
+<script type="text/JavaScript" src="/public/script.js"></script>
+
+
+<div id="board">
+    <canvas id="myCanvas" width="500px" height="500px">
+        Sorry, your browser doesn't support canvas technology.
+    </canvas>
+   
+</div><!-- END board -->
+</body>
+</html>
